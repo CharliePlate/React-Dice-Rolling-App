@@ -1,0 +1,21 @@
+.Dice {
+    font-size: 200px;
+    color: purple;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+@keyframes Dice-Roll {
+    10% { transform: translate(-30px, 1px) rotate(-5deg); }
+    20% { transform: translate(30px,1px) rotate(0deg); }
+    30% { transform: translate(60px,1px) rotate(5deg); }
+    40% { transform: translate(-30px, 1px) rotate(-5deg); }
+    50% { transform: translate(30px,1px) rotate(5deg); }
+    60% { transform: translate(60px,1px) rotate(5deg); }
+    70% { transform: translate(-30px, 1px) rotate(-5deg); }
+}
+  
+.Dice-Animation{
+    animation-name: Dice-Roll;
+    animation-duration: 0.75s;
+}

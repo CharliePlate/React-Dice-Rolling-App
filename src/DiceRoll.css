@@ -1,0 +1,14 @@
+.DiceRoll-Dice {
+    display: flex;
+    justify-content: center
+}
+
+.DiceRoll-btn {
+    color: white;
+    background-color: purple;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 8px;
+    outline: none;
+}
+
